@@ -36,74 +36,11 @@ body {
 
 	    }
 
-#id1 { background-color: gray; 
-	      border: 1px solid black;
-	      position: relative;
-	      float: left;
-	      padding-top:20px;
-	      padding-left:10px;
-	      margin-top:30px;
-	      margin-left: 1%;
-	      }
+#menu_text{
+	background-color: gray;
+	/*margin-left:5px;
+	margin-right:5px;*/
+	padding-left:10px;
+	padding-right:5px;
 
-#id2{ background-color: gray; 
-	      border: 1px solid black;
-	      position: relative;
-	      float: left;
-	      padding-top:20px;
-	      padding-left:10px;
-	      margin-top:30px;
-	      margin-left: 1%;
-	      }
-
-@media (min-width:992px) {
-		 #id1 {width: 32%;
-		 	float:left;
-		 }
-		 #id2 {width: 32%;
-		 	float:left;
-		 }
-	}
-
-@media (min-width:768px) and (max-width: 991px) {
-		 #id1{ width: 49%;
-		  	 float: left;
-		  	}
-		 #id2{ width : 99%;
-		    } 
-		 } 	
-
- @media (max-width: 767px) {
-    	 #id1{ width: 99%; 
-    	 }
-    	 #id2{ width: 99%; 
-    	 }
-    }
-
-
-
-
-	.color_pink{background-color: pink;
-		    width: 100px;
-	        text-align: center;
-            border: 1px solid black;
-	        position: absolute;
-	        top: 0;
-	        right: 0;}
-
-	.color_red {background-color : red;
-		    width: 100px;
-	        text-align: center;
-            border: 1px solid black;
-	        position: absolute;
-	        top: 0;
-	        right: 0;
-	       }
-
-	.color_yellow {background-color: yellow;
-	        width: 100px;
-	        text-align: center;
-            border: 1px solid black;
-	        position: absolute;
-	        top: 0;
-	        right: 0;}
+}
